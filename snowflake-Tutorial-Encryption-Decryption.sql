@@ -96,3 +96,8 @@ select
    ,to_binary('6164646974696F6E616C5F61757468656E746963617465645F64617461') -- aad_column
    ,'AES-GCM'
  ) as col_encrypted;
+
+
+-- Cleaning everything
+drop table tm_db_lab.public.tb_credit_card;
+drop database tm_db_lab;
